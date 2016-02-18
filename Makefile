@@ -1,2 +1,2 @@
 run:
-	python -m http.server 8008
+	python3.5 -m http.server 8008

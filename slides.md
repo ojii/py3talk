@@ -91,20 +91,17 @@ my_awesome_function(log=print)
 ### Built-in Virtual Environments
 #### Python 2
 
-```python
-print 'foo',
-print >>open('somefile', 'w'), 'bar'
-def printer(s):
-    print s
-my_awesome_function(log=printer)
+```sh
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python2 get-pip.py
+sudo pip install virtualenv
+virtualenv -p python2 env
 ```
   
 #### Python 3
 
-```python
-print('foo', end='')
-print('bar', file=open('somefile', 'w'))
-my_awesome_function(log=print)
+```sh
+python3 -m venv env
 ```
 ]
 
