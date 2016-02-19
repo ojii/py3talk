@@ -46,6 +46,15 @@ Not really
 
 ---
 
+## Why this talk
+
+
+https://hynek.me/articles/python3-2016/
+
+http://bit.ly/pypi-stats
+
+---
+
 ## Fixed Stuff
 
 ---
@@ -446,7 +455,44 @@ def 🏩():
 ---
 template: inverse
 
+## The Future
+
+---
+
+.left-column[
+  ## The Future
+]
+
+.right-column[
+### F-Strings
+```
+foo = 'world'
+print(f'Hello {world}')
+```
+
+### Underscores in numbers
+
+```
+一万 = 10_000
+```
+
+https://www.python.org/dev/peps/pep-0515/
+
+### SPEEEEEEED
+
+Opcode Cache  & `LOAD_METHOD`/`CALL_METHOD`/`LOAD_ATTR` opcodes.
+
+http://bit.ly/python-speed
+]
+
+???
+
+10-20% faster (macrobench), 7-8% faster real app (2to3)
+
+---
+template: inverse
+
 ## Thank You
 ### Questions?
 
----
+Slides at http://github.com/ojii/py3talk
