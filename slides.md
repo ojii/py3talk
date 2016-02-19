@@ -6,6 +6,20 @@ class: center, middle, inverse
 
 # Why I ♥ Python 3
 
+???
+
+Python 3.0 - December 3, 2008
+
+Python 3.1 - June 27, 2009
+
+Python 3.2 - February 20, 2011
+
+Python 3.3 - September 29, 2012
+
+Python 3.4 - March 16, 2014
+
+Python 3.5 - September 13, 2015
+
 ---
 
 class: center, middle
