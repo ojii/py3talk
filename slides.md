@@ -230,6 +230,10 @@ IOError: [Errno 2] No such file or directory: '/does/not/exist'
   ```
 ]
 
+???
+
+IOError: [Errno 2] No such file or directory: '/does/not/exist'
+
 ---
 .left-column[
   ## Better Stuff
@@ -316,6 +320,18 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/does/not/exist'
 ```
 ]
+
+???
+
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x10250b320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='example.invalid', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x10250b320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='example.invalid', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x10250b320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+FileNotFoundError: [Errno 2] No such file or directory: '/does/not/exist'
 
 ---
 
