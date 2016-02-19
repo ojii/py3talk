@@ -455,12 +455,12 @@ def 🏩():
 ---
 template: inverse
 
-## The Future
+## The Future (3.6)
 
 ---
 
 .left-column[
-  ## The Future
+  ## The Future (3.6)
 ]
 
 .right-column[
